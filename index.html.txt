@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ConfiCove</title>
+</head>
+<body>
+  <header>
+    <h1>ConfiCove</h1>
+    <nav>
+      <ul>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#report">Report</a></li>
+        <li><a href="#capacity-building">Capacity Building</a></li>
+        <li><a href="#tracking-and-incentives">Tracking and Incentives</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="register">
+      <h2>User Registration</h2>
+      <form action="#" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="type">Type:</label>
+        <select id="type" name="type">
+          <option value="known">Known</option>
+          <option value="anonymous">Anonymous</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="report">
+      <h2>Report</h2>
+      <form action="#" method="post" enctype="multipart/form-data">
+        <label for="on-behalf">Report on behalf of:</label>
+        <select id="on-behalf" name="on-behalf">
+          <option value="self">Self</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" required></textarea>
+        <br>
+        <label for="evidence">Evidence:</label>
+        <input type="file" id="evidence" name="evidence">
+        <br>
+        <label for="audio-video">Audio/Video Report:</label>
+        <input type="file" id="audio-video" name="audio-video">
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+    <section id="capacity-building">
+      <h2>Capacity Building</h2>
+      <p>Access learning resources and participate in activities to earn rewards and recognition</p>
+      <ul>
+        <li><a href="#">Quizzes</a></li>
+        <li><a href="#">Discussions</a></li>
+        <li><a href="#">Sharing Information</a></li>
+      </ul>
+    </section>
+   
