@@ -1,0 +1,26 @@
+{
+  "users": [],
+  "signals": [],
+  "journal": [],
+  "settings": {
+    "adrMin": 80,
+    "slPipsMax": 30,
+    "rrTarget": 2.5,
+    "signalExpiryBufferMin": 15,
+    "enabledPairs": ["GBPUSD", "EURUSD", "EURGBP"],
+    "strategies": { "london": true, "ny": true },
+    "risk": {
+      "minADR": 80,
+      "assumedSpreadPips": 1.2,
+      "maxSpreadPips": 2.5,
+      "newsFilterEnabled": false,
+      "nearHighImpactNews": false
+    },
+    "mss": {
+      "swingSensitivity": 2,
+      "displacementPips": 5,
+      "requireFollowThrough": false,
+      "obConfluencePips": 5
+    }
+  }
+}
